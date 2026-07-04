@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: k1tbyte:master
+    mergeMethod: merge
+    mergeUnstable: false
+    conflictReviewers:
+      - azhuge233
