@@ -1,4 +1,4 @@
-name: Build executable
+name: Build on push
 
 on:
   workflow_dispatch:
